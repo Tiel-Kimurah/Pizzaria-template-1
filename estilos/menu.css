@@ -1,0 +1,143 @@
+
+.cardapio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.titulo{
+    font-size: 3rem;
+    padding: 1rem;
+}
+/*.center-pizza{
+    display: flex;
+    flex-direction: row;padding: 1rem;
+}*/
+.pizza{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.pizza h1{
+    font-size: 2.5rem;
+    font-family: "Fredericka the Great", serif;
+}
+.pizza p{
+    width: 400px;
+}
+.pizza h2,
+.pizza h3{
+    font-family: "Fredericka the Great", serif;
+}
+.pizza h3:hover{
+    color: rgb(180, 36, 36);
+    transition: 0.3s;
+}
+.pizza img{
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+}
+.pizza button{
+    padding: 0.5rem 4rem;
+    border: none;
+    border-radius: 22px;
+    font-family: "Fredericka the Great", serif;
+    font-weight: bold;
+    color: aliceblue;
+    background: rgb(180, 36, 36);
+}
+.pizza button:hover{
+    background-color: black;
+    transition: 0.2s;
+}
+.slideshow-container{
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+.slideshow{
+    display: none;
+}
+.prev,
+.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover{
+    background-color: rgba(0,0,0,0,8);
+}
+.paginacao { 
+    width:100%; 
+    float:left;
+    margin: 10px 0;
+    text-align: center;
+}
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 4px;
+    border-radius: 50px;
+    background-color: rgb(180, 36, 36);
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.ativo,
+.dot:hover {
+    background-color: #242424;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+@media (max-width:800px) {
+    .pizza img{
+        width: 100%;
+    }
+    .pizza p{
+        width: 300px;
+    }
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@media (min-width:60em){
+    .paginacao { margin:20px 0; }
+    .dot       { width:18px; height:18px; }
+}

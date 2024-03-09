@@ -1,0 +1,58 @@
+
+.conjunto-de-itens-melhor{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center ;
+    gap: 2rem;
+    background-color: rgb(230, 205, 182);
+}
+.melhor-lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.7rem;
+}
+.melhor-lista p{
+    width: 400px;
+}
+.melhor-lista h1{
+    font-family: "Fredericka the Great", serif;
+    font-size: 2rem;
+}
+.melhor-lista button{
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 22px;
+    background-color: rgb(180, 36, 36);
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.melhor-lista button:hover{
+    background-color: black;
+    transition: 0.3s;
+}
+.melhor-refri{
+    font-weight: bold;
+}
+.valor-melhor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.valor-melhor h3{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    cursor: pointer;
+}
+.imagem-melhor img{
+    width: 400px;
+}
