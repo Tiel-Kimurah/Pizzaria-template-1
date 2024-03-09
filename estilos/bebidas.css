@@ -169,3 +169,10 @@
 
     
 }
+
+/*atualizacao para a versao mobile*/
+@media (max-width:450px){
+    .title-header-slide{
+        font-size: 2rem;
+    }
+}
