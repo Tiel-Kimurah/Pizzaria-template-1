@@ -141,3 +141,10 @@
     .paginacao { margin:20px 0; }
     .dot       { width:18px; height:18px; }
 }
+
+/*atualizacao para versao mobile*/
+@media (max-width:450px){
+    .titulo{
+        font-size: 2rem;
+    }
+}
