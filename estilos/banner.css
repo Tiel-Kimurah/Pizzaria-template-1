@@ -90,4 +90,17 @@
     .food ul{
         display: none;
     }
+    .conjunto-de-itens-banner h1{
+        font-size: 2rem;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+    }
+   .slide img{
+       width: 320px;
+       padding-bottom: 1rem;
+       margin-bottom: 1.5rem;
+   }   
+   .conjunto-de-itens-banner p{
+       font-size: 1rem;
+   }
 }
