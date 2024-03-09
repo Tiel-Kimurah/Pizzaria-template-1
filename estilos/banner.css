@@ -84,3 +84,10 @@
         padding: 1rem;
     }
 }
+
+/*ajustes mobile*/
+@media (max-width:450px){
+    .food ul{
+        display: none;
+    }
+}
