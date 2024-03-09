@@ -56,3 +56,24 @@
 .imagem-melhor img{
     width: 400px;
 }
+
+/*atualizaacao para a versao mobile*/
+@media (max-width:450px){
+    .conjunto-de-itens-melhor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagem-melhor{
+        display: none;
+    }
+    .melhor-lista h1{
+        font-size: 1.5rem;
+    }
+    .melhor-lista p{
+        width: 300px;
+    }
+    .conjunto-de-itens-melhor{
+        margin-bottom: 2rem;
+    }
+}
