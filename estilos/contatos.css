@@ -58,3 +58,32 @@
     font-size: 0.7rem;
     padding-bottom: 0.9rem;
 }
+
+/*atualizacao para a versao mobile*/
+@media (max-width:450px){
+    .redes-sociais{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+    .redes-sociais span{
+        font-size: 2rem;
+    }
+    .titulo-redes h1{
+        font-size: 2rem;
+    }
+    .cell{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .conjunto-de-itens-contatos{
+        margin: 0;
+        padding: 2rem 0;
+        top: 0;
+        left: 0;
+    }
+}
