@@ -17,3 +17,18 @@
 .inf-img{
     height: 211px;
 }
+
+/*atualizacao para a versao mobile*/
+@media (max-width:450px){
+    .ind{
+        display: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+    }
+    .linha-image img{
+        width: 100%;
+    }
+}
